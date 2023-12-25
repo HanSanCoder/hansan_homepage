@@ -36,7 +36,7 @@
     <footer>
       ©2023 Hansan's Homepage.
       <a href="https://beian.miit.gov.cn/">{{ $myGlobalVariable }}</a> Powered by
-      <a href="https://github.com/HanSanCoder">hansan_homepage</a>
+      <a href="https://github.com/HanSanCoder/hansan_homepage">hansan_homepage</a>
       project. Background image by
       <a href="https://www.loliapi.com/">Loli API.</a>
     </footer>
