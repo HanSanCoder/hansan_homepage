@@ -9,7 +9,7 @@
       <!-- 链接 -->
       <div class="tooltip-container">
         <span class="tooltip">Daily.Log</span>
-        <span class="text"><a href="https://hhsblog.cn">博客 👆</a></span>
+        <span class="text"><a href="https://my.gintama.love">博客 👆</a></span>
         <span>Hello! 👋</span>
       </div>
       <div class="tooltip-container">
@@ -29,7 +29,7 @@
       </div>
       <div class="tooltip-container">
         <span class="tooltip">Private.email</span>
-        <span class="text"><a href="mailto:hehansan0011@163.com">邮箱 📮</a></span>
+        <span class="text"><a href="mailto:hehansan@gintama.love">邮箱 📮</a></span>
         <span>You! 👋</span>
       </div>
     </div>
