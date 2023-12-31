@@ -6,7 +6,7 @@ const config: NuxtConfig = {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: '何汉叁的个人主页',
+    title: '星华彼岸',
     htmlAttrs: {
       lang: 'en'
     },
