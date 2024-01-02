@@ -12,7 +12,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_d4a01f36 from 'nuxt_plugin_plugin_d4a01f36' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_plugin_f82c2636 from 'nuxt_plugin_plugin_f82c2636' // Source: .\\components\\plugin.js (mode: 'all')
 import nuxt_plugin_globalVariables_02789b8f from 'nuxt_plugin_globalVariables_02789b8f' // Source: ..\\plugins\\globalVariables.ts (mode: 'client')
 
 // Component: <ClientOnly>
@@ -64,7 +64,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"何汉叁的个人主页","htmlAttrs":{"lang":"en"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"一名普通软件工程专业的在校大学生，日常爱好打游戏看银魂，学习新技术😃"},{"hid":"description","name":"description","content":"何汉叁、何汉贰以后还会有何汉壹， HanSanCoder "},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"https:\u002F\u002Fshot-image.oss-cn-beijing.aliyuncs.com\u002Fhomepage.jpg"}],"style":[],"script":[]},
+    head: {"title":"星华彼岸","htmlAttrs":{"lang":"en"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"一名普通软件工程专业的在校大学生，日常爱好打游戏看银魂，学习新技术😃"},{"hid":"description","name":"description","content":"何汉叁、何汉贰以后还会有何汉壹， HanSanCoder "},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"https:\u002F\u002Fshot-image.oss-cn-beijing.aliyuncs.com\u002Fhomepage.jpg"}],"style":[],"script":[]},
 
     router,
     nuxt: {
@@ -179,8 +179,8 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_d4a01f36 === 'function') {
-    await nuxt_plugin_plugin_d4a01f36(app.context, inject)
+  if (typeof nuxt_plugin_plugin_f82c2636 === 'function') {
+    await nuxt_plugin_plugin_f82c2636(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_globalVariables_02789b8f === 'function') {

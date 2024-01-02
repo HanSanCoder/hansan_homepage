@@ -10,22 +10,22 @@
       <div class="tooltip-container">
         <span class="tooltip">Daily.Log</span>
         <span class="text"><a href="https://my.gintama.love">博客 👆</a></span>
-        <span>Welcome! 👋</span>
+        <span>Welcome 👋</span>
       </div>
       <div class="tooltip-container">
         <span class="tooltip">Frequent.Use</span>
         <span class="text"><a href="https://github.com/HanSanCoder">Github 🙄</a></span>
-        <span>He! 👋</span>
+        <span>He 👋</span>
       </div>
       <div class="tooltip-container">
         <span class="tooltip">My.favorite</span>
         <span class="text"><a href="https://juejin.cn/user/2483142306569175/posts">掘金 ✍️</a></span>
-        <span>の! 👋</span>
+        <span>の 👋</span>
       </div>
       <div class="tooltip-container">
         <span class="tooltip">Digital.Garden</span>
         <span class="text"><a href="https://www.yuque.com/hehansan">语雀 🐦</a></span>
-        <span>Personal! 👋</span>
+        <span>Personal 👋</span>
       </div>
       <div class="tooltip-container">
         <span class="tooltip">Private.email</span>
