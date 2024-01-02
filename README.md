@@ -6,3 +6,6 @@
 ## Deployment and running
 
 `git clone https://github.com/HanSanCoder/hansan_homepage.git && ./start.sh`
+
+## License
+(MIT © HeHanSan-2023)[/LICENSE]
