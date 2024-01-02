@@ -7,5 +7,7 @@
 
 `git clone https://github.com/HanSanCoder/hansan_homepage.git && ./start.sh`
 
+【注意】node 环境为18.17.x
+
 ## License
 [MIT © HeHanSan-2023](/LICENSE)
