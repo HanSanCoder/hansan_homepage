@@ -14,7 +14,7 @@ const config: NuxtConfig = {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '一名普通软件工程专业的在校大学生，日常爱好打游戏看银魂，学习新技术😃' },
-      { hid: 'description', name: 'description', content: '何汉叁、何汉贰以后还会有何汉壹， HanSanCoder ' },
+      { hid: 'keywords', name: 'keywords', content: '何汉叁、何汉贰、何汉壹， HanSanCoder' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [

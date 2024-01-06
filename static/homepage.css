@@ -15,13 +15,16 @@ a {
 footer {
     position: fixed;
     bottom: 0;
-    left: 0;
+    left: 50%;
     width: 100%;
-    height: 15px;
+    max-height: 10vh;
     background-color: rgba(0, 0, 0, 0.5);
+    overflow: auto;
     color: #ffffff;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
+    transform: translateX(-50%);
+    z-index: 999;
 }
 
 footer a {
@@ -40,38 +43,51 @@ footer a {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     background-color: rgba(255, 255, 255, 0.4);
     padding: 20px;
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
-    width: 1200px;
-    height: 570px;
+    width: 70vw;
+    height: 70vh;
 }
 
+.main_panel {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.avatar-container {
+    width: 256px;
+    height: 256px;
+    margin-bottom: 18px;
+}
 .avatar {
-    position: absolute;
-    top: 120px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 200px;
-    height: 200px;
+    width: 256px;
+    height: 256px;
     border-radius: 50%;
     background-image: url("https://shot-image.oss-cn-beijing.aliyuncs.com/homepage.jpg");
     background-size: cover;
-    transition: transform 0.8s ease;
+    transition: transform 0.8s;
 }
 
 .avatar:hover {
-    transform: translate(-50%, -50%) rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.description_container {
+    display: block;
 }
 
 .highlight {
     display: inline-block;
     position: relative;
-    font-size: 40px;
-    top: 207px;
-    left: -31%;
+    font-weight: 700;
     color: black;
 }
 
@@ -91,14 +107,19 @@ footer a {
 .highlight:hover::after {
     left: -15px;
     right: -15px;
-    width: 110%;
+    width: 107%;
 }
 
-.introduce {
-    position: absolute;
-    top: 47%;
-    left: 25%;
-    font-size: 16px;
+p {
+    font-weight: 400;
+    margin: 16px 0 25px;
+}
+
+.social-media-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .tooltip-container {
@@ -107,7 +128,7 @@ footer a {
     position: relative;
     cursor: pointer;
     float: left;
-    margin: 9px;
+    margin: 28px 12px;
     transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
     font-size: 18px;
     font-weight: 600;
@@ -120,8 +141,6 @@ footer a {
     display: grid;
     place-items: center;
     border: 2px solid var(--color);
-    top: 334px;
-    left: 216px;
 }
 
 .text {
