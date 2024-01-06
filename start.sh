@@ -3,6 +3,9 @@
 # 提示用户正在安装依赖
 echo "Installing dependencies..."
 
+# 给start.sh可执行权限
+chmod +x start.sh
+
 # 安装依赖
 npm install
 

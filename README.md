@@ -5,7 +5,15 @@
 
 ## Deployment and running
 
-`git clone https://github.com/HanSanCoder/hansan_homepage.git && ./start.sh`
+`git clone https://github.com/HanSanCoder/hansan_homepage.git && cd hansan_homepage && ./start.sh`
 
+## Docker
+`docker build -t nuxt-home .`
+
+这将根据 Dockerfile 中的定义构建一个名为 nuxt-home 的 Docker 镜像。
+
+`docker run --restart=alway -p 3000:3000 -d nuxt-home`
+
+这会在端口 3000 上运行 Nuxt.js 项目的容器。
 ## License
-[MIT © HeHanSan-2023](/LICENSE)
+[MIT © HeHanSan-2023](./LICENSE)

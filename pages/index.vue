@@ -9,28 +9,38 @@
       <!-- 链接 -->
       <div class="tooltip-container">
         <span class="tooltip">Daily.Log</span>
-        <span class="text"><a href="https://my.gintama.love">博客 👆</a></span>
+        <a href="https://my.gintama.love" class="link">
+        <span class="text">博客 👆</span>
         <span>Welcome 👋</span>
+        </a>
       </div>
       <div class="tooltip-container">
         <span class="tooltip">Frequent.Use</span>
-        <span class="text"><a href="https://github.com/HanSanCoder">Github 🙄</a></span>
+        <a href="https://github.com/HanSanCoder" class="link">
+        <span class="text">Github 🙄</span>
         <span>He 👋</span>
+        </a>
       </div>
       <div class="tooltip-container">
         <span class="tooltip">My.favorite</span>
-        <span class="text"><a href="https://juejin.cn/user/2483142306569175/posts">掘金 ✍️</a></span>
+        <a href="https://juejin.cn/user/2483142306569175/posts" class="link">
+        <span class="text">掘金 ✍️</span>
         <span>の 👋</span>
+        </a>
       </div>
       <div class="tooltip-container">
         <span class="tooltip">Digital.Garden</span>
-        <span class="text"><a href="https://www.yuque.com/hehansan">语雀 🐦</a></span>
+        <a href="https://www.yuque.com/hehansan" class="link">
+        <span class="text">语雀 🐦</span>
         <span>Personal 👋</span>
+        </a>
       </div>
       <div class="tooltip-container">
         <span class="tooltip">Private.email</span>
-        <span class="text"><a href="mailto:hehansan@gintama.love">邮箱 📮</a></span>
+        <a href="mailto:hehansan@gintama.love" class="link">
+        <span class="text">邮箱 📮</span>
         <span>Space! 👋</span>
+        </a>
       </div>
     </div>
     <footer>
