@@ -7,6 +7,9 @@
 
 `git clone https://github.com/HanSanCoder/hansan_homepage.git && cd hansan_homepage && ./start.sh`
 
+你可能需要给start.sh可执行权限
+`chmod +x start.sh`
+
 ## Docker
 `docker build -t nuxt-home .`
 
