@@ -12,7 +12,7 @@
 
 这将根据 Dockerfile 中的定义构建一个名为 nuxt-home 的 Docker 镜像。
 
-`docker run --name nuxt-homepage --restart=alway -p 3000:3000 -d nuxt-home`
+`docker run --name nuxt-homepage --restart=always -p 3000:3000 -d nuxt-home`
 
 这会在端口 3000 上运行 Nuxt.js 项目的容器。
 ## License
