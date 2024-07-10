@@ -67,6 +67,7 @@ footer a {
     height: 256px;
     margin-bottom: 18px;
 }
+
 .avatar {
     width: 256px;
     height: 256px;
@@ -155,7 +156,7 @@ p {
     transform: scale(1);
     transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
     color: #333333;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .tooltip-container span:last-child {

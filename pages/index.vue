@@ -8,55 +8,55 @@
         </div>
         <!-- 黄线 -->
         <div class="description_container">
-          <h1 class="highlight">欢迎来到何汉叁的主页👦</h1>
-          <p>一位又菜又爱学的脆皮大学生&&后端假程序猿，业余运维，业余的业余是云计算</p>
+          <h1 class="highlight">欢迎来到何汉叁的主页😄</h1>
+          <p>一位泡论坛乐不思蜀的佬友&&后端假程序猿，喜欢做点自己的小玩具</p>
         </div>
         <div class="social-media-container">
           <!--QQ-->
           <div class="tooltip-container">
             <span class="tooltip">Call.me</span>
-            <a href="tencent://message/?uin=3313592503" class="link">
-              <span class="text">QQ 🐧</span>
+            <a href="tencent://message/?uin=3313592503" class="link" target="_blank">
+              <span class="text">QQ</span>
               <span>Hey 👋</span>
             </a>
           </div>
           <!-- 博客 -->
           <div class="tooltip-container">
             <span class="tooltip">Daily.Log</span>
-            <a href="https://my.gintama.love" class="link">
-              <span class="text">博客 👆</span>
+            <a href="https://my.gintama.love" class="link" target="_blank">
+              <span class="text">博客</span>
               <span>Welcome 👋</span>
             </a>
           </div>
           <!--github-->
           <div class="tooltip-container">
             <span class="tooltip">Frequent.Use</span>
-            <a href="https://github.com/HanSanCoder" class="link">
-              <span class="text">Github 🙄</span>
+            <a href="https://github.com/HanSanCoder" class="link" target="_blank">
+              <span class="text">Github</span>
               <span>He 👋</span>
             </a>
           </div>
-          <!--掘金-->
+          <!--简历-->
           <div class="tooltip-container">
-            <span class="tooltip">My.favorite</span>
-            <a href="https://juejin.cn/user/2483142306569175/posts" class="link">
-              <span class="text">掘金 ✍️</span>
+            <span class="tooltip">My.cv</span>
+            <a href="https://bio.gintama.love" class="link" target="_blank">
+              <span class="text">简历</span>
               <span>の 👋</span>
             </a>
           </div>
           <!--语雀-->
           <div class="tooltip-container">
             <span class="tooltip">Digital.Garden</span>
-            <a href="https://www.yuque.com/hehansan" class="link">
-              <span class="text">语雀 🐦</span>
+            <a href="https://www.yuque.com/hehansan" class="link" target="_blank">
+              <span class="text">语雀</span>
               <span>Personal 👋</span>
             </a>
           </div>
           <!--邮箱-->
           <div class="tooltip-container">
             <span class="tooltip">Private.email</span>
-            <a href="mailto:hehansan@gintama.love" class="link">
-              <span class="text">邮箱 📮</span>
+            <a href="mailto:hehansan@gintama.love" class="link" target="_blank">
+              <span class="text">邮箱</span>
               <span>Space! 👋</span>
             </a>
           </div>
@@ -81,5 +81,4 @@ export default Vue.extend({
 })
 </script>
 
-<style>
-</style>
+<style></style>
