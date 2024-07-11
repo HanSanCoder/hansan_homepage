@@ -16,4 +16,4 @@ echo "Starting the project..."
 npm run start
 
 # 提示用户项目已启动
-echo "Project started!"
+echo "Project started!!"
