@@ -1,0 +1,13 @@
+language: minimal
+
+services:
+  - docker
+
+before_install:
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+
+script:
+  - docker build -t push hansancoder/homepage .
+
+after_success:
+  - docker push push hansancoder/homepage
