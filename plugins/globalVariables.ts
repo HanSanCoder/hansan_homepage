@@ -6,4 +6,4 @@ declare module 'vue/types/vue' {
     }
 }
 
-Vue.prototype.$myGlobalVariable = 'YOUR ICP NUMBER';
+Vue.prototype.$myGlobalVariable = '豫ICP备2023014855号-2';
